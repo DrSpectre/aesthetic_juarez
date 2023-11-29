@@ -1,0 +1,44 @@
+.contenedor_documentación{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: auto;
+
+    height: 50vh;
+    width: 90vw;
+
+    background-color: white;
+
+    color: #030303;
+}
+
+.titulo{
+}
+
+.documentacion{
+    height: 55%;
+
+    overflow: auto;
+}
+
+.fuentes{
+    margin-top: 10px;
+
+    font-size: 10px;
+}
+
+.secciones{
+    padding: 8px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.visitar_seccion{
+    background-color: red;
+
+    padding: 3px 15px;
+}
+

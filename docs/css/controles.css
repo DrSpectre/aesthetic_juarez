@@ -1,0 +1,32 @@
+.selector_menu{
+    margin: auto;
+    background-color: rgba(147, 0, 0, 0.3);
+
+    display: flex;
+    align-items: center;
+
+    width: 80vw;
+
+    justify-content: space-around;
+}
+
+.flex_columna{
+    flex-direction: column;
+}
+
+.flex_fila{
+    flex-direction: row;
+}
+
+.al_fondo{
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.caja{
+    padding: 15px;
+}
+
